@@ -9,8 +9,8 @@
 const char* ssid     = "Tu_Wifi_Aqui";
 const char* password = "tu_contraseña_Aqui";
  // ===== CONFIGURACIÓN IP FIJA =====
-IPAddress local_IP(192, 168, 20, 200);  // La IP que quieres para tu carro
-IPAddress gateway(192, 168, 20, 1);     // La IP de tu router (puerta de enlace)
+IPAddress local_IP(192, 168, 0, 100);  // La IP que quieres para tu carro
+IPAddress gateway(192, 168, 0, 1);     // La IP de tu router (puerta de enlace)
 IPAddress subnet(255, 255, 255, 0);    // Máscara de subred (casi siempre es esta)
 //IPAddress primaryDNS(8, 8, 8, 8);      // Opcional: DNS de Google
 
