@@ -6,8 +6,8 @@
 #include <Wire.h>
 
 // ===== RED =====
-const char* ssid     = "DIANA_SANCHEZ";
-const char* password = "Diana_sanchez2024";
+const char* ssid     = "Tu_Wifi_Aqui";
+const char* password = "tu_contraseña_Aqui";
  // ===== CONFIGURACIÓN IP FIJA =====
 IPAddress local_IP(192, 168, 20, 200);  // La IP que quieres para tu carro
 IPAddress gateway(192, 168, 20, 1);     // La IP de tu router (puerta de enlace)
