@@ -5,8 +5,8 @@ int16_t AcX, AcY, AcZ, Tmp, GyX, GyY, GyZ;
 
 void setup() {
   Serial.begin(115200);
-  // Mantenemos TUS pines que sí funcionaron (SDA=9, SCL=8)
-  Wire.begin(21, 22, 100000); 
+  // Mantenemos TUS pines que sí funcionaron (SDA=21, SCL=47)
+  Wire.begin(21, 47, 100000); 
   
   // Despertar al sensor
   Wire.beginTransmission(MPU_ADDR);
