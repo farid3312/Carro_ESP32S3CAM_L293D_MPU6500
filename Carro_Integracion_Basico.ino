@@ -5,8 +5,8 @@
 #include <Wire.h>
 
 // ===== RED =====
-const char* ssid     = "FARID C";
-const char* password = "12345678";
+const char* ssid     = "Tu_Wifi_Aquí";
+const char* password = "Tu_contraseña_Aqui";
 #define WIFI_MAX_RETRIES 20
 int wifiRetryCount = 0;
 
