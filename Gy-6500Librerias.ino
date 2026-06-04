@@ -11,7 +11,7 @@ void setup() {
   Serial.begin(115200);
   
   // Iniciamos I2C en los pines del ESP32
-  Wire.begin(21, 22);
+  Wire.begin(21, 47);
 
   Serial.println("\n--- CARRITO NEUROMORFO: Iniciando MPU-6500 ---");
 
