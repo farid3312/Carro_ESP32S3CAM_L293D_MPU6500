@@ -6,11 +6,11 @@
 #include <Wire.h>
 
 // ===== RED =====
-const char* ssid     = "DIANA_SANCHEZ";
-const char* password = "Diana_sanchez2024";
+const char* ssid     = "Tu_Wifi_Aquí";
+const char* password = "Tu_contraseña_Aquí";
  // ===== CONFIGURACIÓN IP FIJA =====
-IPAddress local_IP(192, 168, 20, 200);
-IPAddress gateway(192, 168, 20, 1);
+IPAddress local_IP(192, 168, 0, 2100);
+IPAddress gateway(192, 168, 0, 1);
 IPAddress subnet(255, 255, 255, 0);
 //IPAddress primaryDNS(8, 8, 8, 8);      // Opcional: DNS de Google
 
