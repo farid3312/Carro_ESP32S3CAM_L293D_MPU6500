@@ -69,7 +69,7 @@ void stopMotors() {
   ledcWrite(enBPin, 0);
 }
 
-// carCmd: lógica de movimiento del carro con estados explícitos
+// carCmd: lógica de movimiento del carro 
 void carCmd(char dir) {
   switch (dir) {
     case 'F': // Adelante
