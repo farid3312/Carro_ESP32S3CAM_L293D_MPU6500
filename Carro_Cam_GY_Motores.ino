@@ -43,9 +43,9 @@ unsigned long tiempoAnteriorGY = 0;
 #define PCLK_GPIO_NUM  13
 
 // ===== PINES L293D =====
-const int motorPin1 = 39; // IN1 - Motor A (Izquierdo)
+const int motorPin1 = 1; // IN1 - Motor A (Izquierdo)
 const int motorPin2 = 42; // IN2 - Motor A
-const int enAPin    = 40; // ENA - Velocidad A
+const int enAPin    = 2; // ENA - Velocidad A
 
 const int motorPin3 = 14; // IN3 - Motor B (Derecho)
 const int motorPin4 = 41; // IN4 - Motor B
