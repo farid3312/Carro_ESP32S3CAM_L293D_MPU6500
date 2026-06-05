@@ -1,4 +1,5 @@
-# CarroESP32S3CAMDeteccionDeCaidas
+# Carro_ESP32S3CAM_L293D_MPU6500
+
 Carro con pocos sensores con conexion por web socket,Hace uso de esp32s3 con un modulo mpu6500 y 4 motores mas 2 baterias 18650, es una implementacion paso a paso, verificando cada uno de los componentes.
 
 para la implementacion del carro controlado por pagina web, se necesita una buena conexion wifi.
