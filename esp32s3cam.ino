@@ -6,8 +6,8 @@
 // ==========================================
 // 1. CONFIGURACIÓN DE RED
 // ==========================================
-const char* ssid = "DIANA_SANCHEZ";
-const char* password = "Diana_sanchez2024";
+const char* ssid = "Tu_wifi_Aquí";
+const char* password = "Tu_Contraseña_Aquí";
 
 AsyncWebSocketClient * globalClient = NULL;
 void onWsEvent(AsyncWebSocket *server, AsyncWebSocketClient *client, AwsEventType type, void *arg, uint8_t *data, size_t len);
