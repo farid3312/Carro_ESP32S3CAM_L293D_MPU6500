@@ -1,7 +1,7 @@
 // ===== PINES L293D =====
-const int IN1 = 39;  // Motor A (Izquierdo)
+const int IN1 = 1;  // Motor A (Izquierdo)
 const int IN2 = 42;  
-const int ENA = 40; // Velocidad Motor A
+const int ENA = 2; // Velocidad Motor A
 
 const int IN3 = 14; // Motor B (Derecho)
 const int IN4 = 41; 
