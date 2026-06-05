@@ -19,12 +19,12 @@ int wifiRetryCount = 0;
 
 // ===== GY-6500 I2C =====
 const int MPU_ADDR = 0x68;
-const int SDA_PIN  = 21;   // sin cambio
-const int SCL_PIN  = 47;   // sin cambio
+const int SDA_PIN  = 21;   
+const int SCL_PIN  = 47;   
 int16_t AcX, AcY, AcZ, Tmp, GyX, GyY, GyZ;
 unsigned long tiempoAnteriorGY = 0;
 
-// ===== PINES CAMARA (sin cambio) =====
+// ===== PINES CAMARA  =====
 #define PWDN_GPIO_NUM  -1
 #define RESET_GPIO_NUM -1
 #define XCLK_GPIO_NUM  15
@@ -490,7 +490,7 @@ void setup() {
     Serial.println("Fallo al configurar IP Fija");
   }
   WiFi.setTxPower(WIFI_POWER_20dBm);
-  //esp_wifi_set_max_tx_power(30); // Limita potencia a 10dBm para evitar crash del S3
+  //cambiar si su esp32s3 presenta fallas de conexion: esp_wifi_set_max_tx_power(30); // Limita potencia a 10dBm para evitar crash del S3
   WiFi.setAutoReconnect(true); 
   WiFi.persistent(false);
   WiFi.begin(ssid, password);
