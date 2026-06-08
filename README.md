@@ -26,3 +26,6 @@ Para la implementacion paso a paso se recomienda seguir la carga de los siguient
 
 10- CarroV3_Final.ino cuenta con la implementacion basica del sensor hc-sr04 para la deteccion de colisiones y manda una advertencia al estar muy cercano, con esto el carro esta listo para salir a las pistas
 
+<img width="3000" height="2743" alt="circuit_image" src="https://github.com/user-attachments/assets/033e3367-410a-482a-960d-bb978095c19c" />
+
+
